@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 Image Styling</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="shortcut icon" href="img\favicon3.png">
+<style>
+.logo {margin:0;}
+.dropdown-menu{background-color:grey;}
+.dropdown-item {color:white;}
+p {text-align:justify;}
+.col-12{text-align:left;}
+.wrapper {border:5px solid black;widght:1000px;}
+.form-select{widght:1000px;height:auto;}
+</style>
+</head>
+<body>
+
+
+<header>
+
+ <h2 class="text-center">CONTACTS!</h2>
+
+<div class="container">
+
+<div class="row" style="background-color:grey">
+
+<div class="col-12">
+
+
+<div class="bs-example">
+    <form action="/examples/actions/confirmation.php" method="post">
+	<div class="form-group">
+            <label for="name">LAST NAME</label>
+            <input type="text" class="form-control" id="name" placeholder="LASTNAME" required>
+        </div>
+		<div class="form-group">
+            <label for="name">FIRST NAME</label>
+            <input type="text" class="form-control" id="name" placeholder="FIRSTNAME" required>
+        </div>
+	<div class="form-group" style="background-color:yellow">
+
+  <select class="form-select" style="width:100%;height:40px" aria-label="form-select-color:yellow">
+  <option selected>Select your country</option>
+  <option value="1">Africa</option>
+  <option value="2">Europe</option>
+</select>
+		</div>
+		
+   <div class="form-group"> 
+   <select class="form-select" style="width:100%;height:40px"aria-label="Default select example">
+  <option selected>Services</option>
+  <option value="1">Delivery</option>
+  <option value="2">Visiting</option>
+</select>
+      </div>
+		
+        <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+        </div>
+		<div class="form-group">
+        <button type="submit" class="btn btn-primary">Send</button>
+		 </div>
+    </form>
+	</div>
+</div>	
+	
+</div>
+
+<div class="row">
+<div class="col-12 col-md-6">
+
+<div class="events">
+<h2>Europe</h2>
+<img src="img\Europe.jpg" alt="shipping image" height="350px" widght="350px">
+<p>At present we are not able to take school bookings for visits to our farm and greenhouse, due to coronavirus pandemics(COVID-19).</br>
+We are working towards being able to offer you a unique digital access and the latest information on school visits</p>
+ </div>
+</div>
+<div class="col-12 col-md-6">
+
+<div class="events">
+<h2>Africa</h2>
+<img src="img\Eastafrica.jpg" alt="shipping image" height="350px" widght="350px">
+<p>At present we are not able to take school bookings for visits to our farm and greenhouse, due to coronavirus pandemics(COVID-19).</br>
+We are working towards being able to offer you a unique digital access and the latest information on school visits</p>
+ </div>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+</body>
+</html>
